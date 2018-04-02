@@ -7,6 +7,10 @@
     "galleryBanner": {
         "theme": "light"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/skyran1278/matlab-snippets.git"
+    },
     "engines": {
         "vscode": "^1.21.0"
     },
