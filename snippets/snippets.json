@@ -1,0 +1,16 @@
+{
+  "fprintf": {
+    "prefix": "print",
+    "body": [
+      "fprintf('$1');"
+    ],
+    "description": "fprintf"
+  },
+  "nargin": {
+    "prefix": "nargin",
+    "body": [
+      "nargin"
+    ],
+    "description": "nargin"
+  },
+}

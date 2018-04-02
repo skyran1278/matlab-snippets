@@ -1,0 +1,25 @@
+{
+    "name": "matlab-snippets",
+    "displayName": "matlab-snippets",
+    "description": "matlab-snippets",
+    "version": "0.6.0",
+    "publisher": "skyran",
+    "galleryBanner": {
+        "theme": "light"
+    },
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "images/icon.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "matlab",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
