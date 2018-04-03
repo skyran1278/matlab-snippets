@@ -11,3 +11,4 @@ After install this snippets add this inside your settings
 ## Snippets
 - fprintf
 - nargin
+- clc; clear; close all;

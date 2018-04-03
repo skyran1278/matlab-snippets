@@ -13,4 +13,11 @@
     ],
     "description": "nargin"
   },
+  "clc clear close all": {
+    "prefix": "clc",
+    "body": [
+      "clc; clear; close all;"
+    ],
+    "description": "clc; clear; close all;"
+  },
 }
