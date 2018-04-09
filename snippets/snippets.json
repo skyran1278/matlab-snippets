@@ -20,4 +20,11 @@
     ],
     "description": "clc; clear; close all;"
   },
+  "syms": {
+    "prefix": "syms",
+    "body": [
+      "syms"
+    ],
+    "description": "syms"
+  },
 }
