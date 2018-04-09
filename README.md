@@ -12,3 +12,4 @@ After install this snippets add this inside your settings
 - fprintf
 - nargin
 - clc; clear; close all;
+- syms
