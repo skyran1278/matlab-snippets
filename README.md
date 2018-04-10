@@ -13,3 +13,6 @@ After install this snippets add this inside your settings
 - nargin
 - clc; clear; close all;
 - syms
+- simplify
+- for
+- axis
