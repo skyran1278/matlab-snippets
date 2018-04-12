@@ -21,8 +21,9 @@ After install this snippets add this inside your settings
 - length
 - figure
 - plot
-- hold
+- hold on
 - legend
 - xlabel
 - ylabel
 - title
+- grid on

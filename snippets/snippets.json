@@ -120,4 +120,11 @@
     ],
     "description": "title"
   },
+  "grid": {
+    "prefix": "grid",
+    "body": [
+      "grid on;"
+    ],
+    "description": "grid"
+  },
 }
