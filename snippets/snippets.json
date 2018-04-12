@@ -23,7 +23,7 @@
   "syms": {
     "prefix": "syms",
     "body": [
-      "syms"
+      "syms ${1:x};"
     ],
     "description": "syms"
   },
@@ -49,5 +49,75 @@
       "axis([${1:xmin} ${2:xmax} ${3:ymin} ${4:ymax}]);"
     ],
     "description": "axis"
+  },
+  "fopen": {
+    "prefix": "fopen",
+    "body": [
+      "${3:fileID} = fopen(${1:filename}, '${2:r}');"
+    ],
+    "description": "fopen"
+  },
+  "fscanf": {
+    "prefix": "fscanf",
+    "body": [
+      "${4:A} = fscanf(${1:fileID}, '${2:%f %f}', [${3:2} Inf]).';"
+    ],
+    "description": "fscanf"
+  },
+  "length": {
+    "prefix": "length",
+    "body": [
+      "length($1);"
+    ],
+    "description": "length"
+  },
+  "figure": {
+    "prefix": "figure",
+    "body": [
+      "figure;"
+    ],
+    "description": "figure"
+  },
+  "plot": {
+    "prefix": "plot",
+    "body": [
+      "plot(${1:x}, ${2:y});"
+    ],
+    "description": "plot"
+  },
+  "hold": {
+    "prefix": "hold",
+    "body": [
+      "hold on;"
+    ],
+    "description": "hold"
+  },
+  "legend": {
+    "prefix": "legend",
+    "body": [
+      "legend($1);"
+    ],
+    "description": "legend"
+  },
+  "xlabel": {
+    "prefix": "xlabel",
+    "body": [
+      "xlabel('$1');"
+    ],
+    "description": "xlabel"
+  },
+  "ylabel": {
+    "prefix": "ylabel",
+    "body": [
+      "ylabel('$1');"
+    ],
+    "description": "ylabel"
+  },
+  "title": {
+    "prefix": "title",
+    "body": [
+      "title('$1');"
+    ],
+    "description": "title"
   },
 }

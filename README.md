@@ -16,3 +16,13 @@ After install this snippets add this inside your settings
 - simplify
 - for
 - axis
+- fopen
+- fscanf
+- length
+- figure
+- plot
+- hold
+- legend
+- xlabel
+- ylabel
+- title
