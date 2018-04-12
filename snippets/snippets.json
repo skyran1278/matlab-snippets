@@ -16,7 +16,9 @@
   "clc clear close all": {
     "prefix": "clc",
     "body": [
-      "clc; clear; close all;"
+      "clc; clear; close all;",
+      "",
+      ""
     ],
     "description": "clc; clear; close all;"
   },
@@ -95,7 +97,7 @@
   "legend": {
     "prefix": "legend",
     "body": [
-      "legend($1);"
+      "legend({'${1:}'}, 'Location', '${2:northeast}');"
     ],
     "description": "legend"
   },
