@@ -157,4 +157,18 @@
     ],
     "description": "diff"
   },
+  "sin": {
+    "prefix": "sin",
+    "body": [
+      "sin($1)"
+    ],
+    "description": "sin"
+  },
+  "cos": {
+    "prefix": "cos",
+    "body": [
+      "cos($1)"
+    ],
+    "description": "cos"
+  },
 }

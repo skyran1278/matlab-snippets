@@ -31,3 +31,5 @@ After install this snippets add this inside your settings
 - ones
 - abs
 - diff
+- sin
+- cos
