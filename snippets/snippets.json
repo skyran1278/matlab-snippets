@@ -129,4 +129,32 @@
     ],
     "description": "grid"
   },
+  "zeros": {
+    "prefix": "zeros",
+    "body": [
+      "zeros($1);"
+    ],
+    "description": "zeros"
+  },
+  "ones": {
+    "prefix": "ones",
+    "body": [
+      "ones($1);"
+    ],
+    "description": "ones"
+  },
+  "abs": {
+    "prefix": "abs",
+    "body": [
+      "abs($1);"
+    ],
+    "description": "abs"
+  },
+  "diff": {
+    "prefix": "diff",
+    "body": [
+      "diff($1);"
+    ],
+    "description": "diff"
+  },
 }

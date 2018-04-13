@@ -27,3 +27,7 @@ After install this snippets add this inside your settings
 - ylabel
 - title
 - grid on
+- zeros
+- ones
+- abs
+- diff
