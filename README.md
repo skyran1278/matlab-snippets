@@ -33,3 +33,6 @@ After install this snippets add this inside your settings
 - diff
 - sin
 - cos
+- fgetl
+- num2str
+- fclose

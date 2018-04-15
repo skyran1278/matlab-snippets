@@ -62,7 +62,7 @@
   "fscanf": {
     "prefix": "fscanf",
     "body": [
-      "${4:A} = fscanf(${1:fileID}, '${2:%f %f}', [${3:2} Inf]).';"
+      "fscanf(${1:fileID}, '${2:%f %f}', [${3:2} Inf]).';"
     ],
     "description": "fscanf"
   },
@@ -170,5 +170,26 @@
       "cos($1)"
     ],
     "description": "cos"
+  },
+  "fgetl": {
+    "prefix": "fgetl",
+    "body": [
+      "fgetl(${1:fileID});"
+    ],
+    "description": "fgetl"
+  },
+  "num2str": {
+    "prefix": "num2str",
+    "body": [
+      "num2str($1)"
+    ],
+    "description": "num2str"
+  },
+  "fclose": {
+    "prefix": "fclose",
+    "body": [
+      "fclose(${1:fileID});"
+    ],
+    "description": "fclose"
   },
 }
