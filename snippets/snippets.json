@@ -192,4 +192,11 @@
     ],
     "description": "fclose"
   },
+  "double": {
+    "prefix": "double",
+    "body": [
+      "double($1);"
+    ],
+    "description": "double"
+  },
 }

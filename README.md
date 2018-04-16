@@ -36,3 +36,4 @@ After install this snippets add this inside your settings
 - fgetl
 - num2str
 - fclose
+- double
