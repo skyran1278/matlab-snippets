@@ -37,3 +37,4 @@ After install this snippets add this inside your settings
 - num2str
 - fclose
 - double
+- function

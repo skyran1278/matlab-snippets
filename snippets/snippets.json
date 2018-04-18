@@ -199,4 +199,24 @@
     ],
     "description": "double"
   },
+  "- function": {
+    "prefix": "function",
+    "body": [
+      "function ${3:output} = ${1:my_fun}(${2:input})",
+      "%",
+      "% description.",
+      "%",
+      "% @since ${4:1.0.0}",
+      "% @param {${5:type}} [${6:name}] ${7:description}.",
+      "% @return {${8:type}} [${9:name}] ${10:description}.",
+      "% @see ${11:dependencies}",
+      "%",
+      "",
+      "\t$0",
+      "",
+      "end",
+      ""
+    ],
+    "description": "function"
+  },
 }
