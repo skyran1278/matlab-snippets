@@ -1,6 +1,6 @@
 {
   "fprintf": {
-    "prefix": "print",
+    "prefix": "fprintf",
     "body": [
       "fprintf('$1');"
     ],
