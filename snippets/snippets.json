@@ -219,4 +219,15 @@
     ],
     "description": "function"
   },
+  "plot figure template": {
+    "prefix": "pf",
+    "body": [
+      "figure;",
+      "plot(${1:x}, ${2:y});",
+      "title('$3');",
+      "xlabel('$4');",
+      "ylabel('$5');"
+    ],
+    "description": "plot figure template"
+  },
 }

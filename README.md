@@ -38,3 +38,4 @@ After install this snippets add this inside your settings
 - fclose
 - double
 - function
+- plot figure template
