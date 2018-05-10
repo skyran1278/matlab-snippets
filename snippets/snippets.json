@@ -97,7 +97,7 @@
   "legend": {
     "prefix": "legend",
     "body": [
-      "legend({'${1:}'}, 'Location', '${2:northeast}');"
+      "legend(['$1', '$2'$3], 'Location', '${4:northeast}');"
     ],
     "description": "legend"
   },
