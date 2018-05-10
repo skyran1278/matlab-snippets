@@ -69,7 +69,7 @@
   "length": {
     "prefix": "length",
     "body": [
-      "length($1);"
+      "length($1)"
     ],
     "description": "length"
   },
@@ -229,5 +229,12 @@
       "ylabel('$5');"
     ],
     "description": "plot figure template"
+  },
+  "size": {
+    "prefix": "size",
+    "body": [
+      "size(${1:A}, ${2:dim})"
+    ],
+    "description": "size"
   },
 }

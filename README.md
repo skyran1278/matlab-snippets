@@ -39,3 +39,4 @@ After install this snippets add this inside your settings
 - double
 - function
 - plot figure template
+- size
