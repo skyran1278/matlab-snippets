@@ -25,7 +25,7 @@
   "syms": {
     "prefix": "syms",
     "body": [
-      "syms ${1:x}; % be careful performance issue",
+      "syms ${1:x}; % be careful performance issue.",
       "",
       "$0"
     ],
