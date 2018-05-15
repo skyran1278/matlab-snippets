@@ -237,4 +237,11 @@
     ],
     "description": "size"
   },
+  "sqrt": {
+    "prefix": "sqrt",
+    "body": [
+      "sqrt($1)"
+    ],
+    "description": "sqrt"
+  },
 }

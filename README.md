@@ -40,3 +40,4 @@ After install this snippets add this inside your settings
 - function
 - plot figure template
 - size
+- sqrt
