@@ -41,3 +41,4 @@ After install this snippets add this inside your settings
 - plot figure template
 - size
 - sqrt
+- linspace
