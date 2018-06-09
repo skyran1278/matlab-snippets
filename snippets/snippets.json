@@ -253,4 +253,11 @@
     ],
     "description": "linspace"
   },
+  "text": {
+    "prefix": "text",
+    "body": [
+      "text(${1:x}, ${2:y}, '$3');"
+    ],
+    "description": "text"
+  },
 }
