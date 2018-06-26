@@ -253,6 +253,13 @@
     ],
     "description": "linspace"
   },
+  "int": {
+    "prefix": "int",
+    "body": [
+      "int($1)"
+    ],
+    "description": "int"
+  },
   "text": {
     "prefix": "text",
     "body": [

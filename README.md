@@ -43,4 +43,5 @@ After install this snippets add this inside your settings
 - sqrt
 - linspace
 - text
+- int
 
